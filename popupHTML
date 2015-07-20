@@ -1,0 +1,87 @@
+<body>
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+
+ <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">
+
+            <!-- HEADER -->
+            <header class="block">
+            	<link href = "test2.css" rel="stylesheet" type="text/css"/>
+            </header>
+
+            <!-- right (menu password) -->
+            <div class="left-container container">
+                <div class="menu-box block"> <!-- MENU BOX (LEFT-CONTAINER) -->
+                    <h2 class="titular">Change Password</h2>
+                    <ul class="menu-box-menu">
+                        <li>
+                            <a class="menu-box-tab" href="#6">Current Password <div class="menu-box-number"></div></a>                            
+                        </li>
+                        <li>
+                            <a class="menu-box-tab" href="#8">New Password <div class="menu-box-number"></div></a>                            
+                        </li>
+                        <li>
+                            <a class="menu-box-tab" href="#10">Retype Password <div class="menu-box-number"></div></a>                            
+                        </li>
+                        <li>
+                            <a class="menu-box-tab" href="#12">Change </a>
+                        </li>
+                                           
+                    </ul>
+                </div>
+                </div>
+                
+
+
+    <!-- left (profile) -->
+
+    <div class="right-container container">
+        <div class="profile block"> <!-- PROFILE (MIDDLE-CONTAINER) -->
+            <br/>
+            <br/>
+            <div class="profile-picture big-profile-picture clear">
+                <img width="150px" alt="Anne Hathaway picture" src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Anne_Hathaway_Face.jpg" >
+            </div>
+
+            <h1 class="user-name">Anne Hathaway</h1>
+            <div class="profile-description">
+                <p class="scnd-font-color">Personal Description?</p>
+            </div>
+            <ul class="profile-options horizontal-list">
+                <li><a class="comments" href="#40"><p><span class="icon fontawesome-comment-alt scnd-font-color"></span>Likes</li></p></a>
+                <li><a class="views" href="#41"><p><span class="icon fontawesome-eye-open scnd-font-color"></span>Comments</li></p></a>
+                <li><a class="changepic" href="#42"><p><span class="icon fontawesome-camera scnd-font-color"></span> Change </li></p></a>
+            </ul>
+        </div>
+       
+        </div>
+</h4>      
+        
+ </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+       
+</div> 
+</div> 
+
+
+
+</body>
+
+
